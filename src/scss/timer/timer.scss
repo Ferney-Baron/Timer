@@ -62,7 +62,7 @@
             border-radius: .3rem;
             cursor: pointer;
 
-            &.container-buttons-start {
+            &.container-button-start {
                 background-color: v.$green;
                 color: v.$white;
 
@@ -71,7 +71,7 @@
                 }
             }
 
-            &.container-buttons-pause {
+            &.container-button-pause {
                 background-color: v.$white;
 
                 &:hover {
@@ -79,7 +79,7 @@
                 }
             }
 
-            &.container-buttons-reset {
+            &.container-button-reset {
                 background-color: v.$red;
                 color: v.$white;
 
