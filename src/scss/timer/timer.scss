@@ -5,6 +5,7 @@
     padding: 3rem;
     border-radius: 1rem;
     border-bottom: 7px solid v.$red;
+    margin-top: 6rem;
 
     h1 {
         text-align: center;
@@ -28,6 +29,8 @@
                 width: 9rem;
                 font-size: 4rem;
                 text-align: center;
+                border: none;
+                border: 1px solid v.$black;
 
                 &::-webkit-outer-spin-button,
                 &::-webkit-inner-spin-button {

@@ -1,0 +1,9 @@
+@use './../base/variables' as v;
+
+.footer {
+    margin-bottom: 2rem;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

@@ -1,0 +1,57 @@
+@use './../base/variables' as v;
+
+.dark {
+    background-color: v.$black;
+
+    .container {
+        h1 {
+            color: v.$white;
+        }
+
+        background-color: v.$darkBlue;
+
+        .container-timer {
+            input {
+                background-color: v.$darkBlue;
+                color: v.$white;
+                border-color: v.$white;
+            }
+
+            label {
+                color: v.$white;
+            }
+        }
+
+        .container-buttons {
+            .container-button-pause {
+                background-color: v.$darkBlue;
+                color: v.$white;
+
+                &:hover {
+                    background-color: lighten(v.$darkBlue, 3%);
+                }
+            }
+        }
+    }
+
+    .header {
+        a {
+            color: v.$white;
+        }
+
+        button {
+            background-color: v.$darkBlue;
+            color: v.$white;
+
+            &:hover {
+                background-color: lighten(v.$darkBlue, 3%);
+            }
+        }
+    }
+
+    .footer {
+        code {
+            color: v.$white;
+        }
+    }
+}
